@@ -11,8 +11,14 @@ a:hover {
     color: #d987ff;
 }
 
-#port-navul{
+/* padding: top and bottom then left and right*/
+#port-nav {
+    padding: 20px 0;
+}
+
+#port-nav ul{
     list-style: none;
+    text-align: center;
 }
 
 /* the long way is #port-nav>ul>li to define that path*/
