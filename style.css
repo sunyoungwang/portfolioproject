@@ -1,12 +1,35 @@
 body  {
     background: #fdffbf;
-    color: #d987ff
+    color: #d987ff;
 }
 
 a{
-    color: #e070d5
+    color: #e070d5;
 }
 
 a:hover {
-    color: #d987ff
+    color: #d987ff;
+}
+
+#port-navul{
+    list-style: none;
+}
+
+/* the long way is #port-nav>ul>li to define that path*/
+#port-nav li{
+    display: inline-block
+}
+
+#port-nav>ul>li>a{
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    background: #eae18c;
+    text-decoration: none;
+}
+
+#port-nav>ul>li>a:hover{
+    color: #666563;
+    background: pink;
+    transition: all .2s linear;
 }
